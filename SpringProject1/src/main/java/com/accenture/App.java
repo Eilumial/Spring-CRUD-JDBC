@@ -16,7 +16,7 @@ public class App {
 
 	public static void main(String[] args) throws Exception {
 
-		/*--->*/ ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+		ApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
 
 		// launchStudent(context);
 		launchEmployee(context);

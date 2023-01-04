@@ -13,9 +13,6 @@ public class EmployeeMapper implements org.springframework.jdbc.core.RowMapper<E
 		emp.setEmpLName(resultSet.getString("emplname"));
 		emp.setEmpSalary(resultSet.getInt("empsalary"));
 		emp.setEmpAddr(resultSet.getString("empaddr"));
-//		person.setSid(resultSet.getString("sid"));
-//		person.setSname(resultSet.getString("sname"));
-//		person.setSaddr(resultSet.getString("saddr"));
 		return emp;
 	}
 }

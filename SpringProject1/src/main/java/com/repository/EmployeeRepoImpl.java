@@ -28,7 +28,6 @@ public class EmployeeRepoImpl implements EmployeeRepo {
 	private final String SQL_FIND_ALL_EMPLOYEE = "select * from employee";
 	private final String SQL_DELETE_EMPLOYEE = "delete from employee where empid = ?";
 	private final String SQL_UPDATE_EMPLOYEE = "update employee set empfname = ?,emplname = ?, empsalary =?, empaddr = ? where empid = ?";
-	// private final String SQL_GET_ALL = "select * from employee";
 	private final String SQL_INSERT_EMPLOYEE = "insert into employee(empid, empfname, emplname, empsalary, empaddr) values(?,?,?,?,?)";
 	private final String SQL_SEARCH_BY_SALARY_RANGE = "select * from employee where empsalary between ? and ?";
 
